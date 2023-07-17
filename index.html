@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ian Gomez - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+
+<div class="container-fluid text-center">
+  <div class="row border border-warning">
+
+    <!-- sidebar -->
+    <div id="sidenav" class="col-md-3 bg-dark text-white border position-fixed vh-100">
+      
+      <div class="mt-5">
+        <h3>My Portfolio</h1>
+        <img class="rounded-circle w-50 my-4" 
+              src="images/xprofile.jpg">
+        <h3>Ian Gomez</h2>
+        <p>Full-Stack Web Developer</p>
+      </div>
+
+      <div class="text-center p-3">
+          <p><a href="#home">Home</a></p>
+          <p><a href="#about">About Me</a></p>
+          <p><a href="#projects">My Projects</a></p>
+          <p><a href="#tools">Tools</a></p>
+          <p><a href="#contactme">Contact Me</a></p>
+      </div>
+      <p class="my-5">"If You want something, work for it!"</p>
+      
+      <div class="d-flex justify-content-center">
+        <footer class="footer text-white">
+            <p class="my-2">&copy; Ian Gomez | 2023 My Portfolio. | All rights reserved.</p>
+        </footer>
+      </div>
+
+    </div>
+    <!-- end of sidebar -->
+
+    <!-- main page col 2-->
+    <div id="content" class="container-fluid col-md-9 border border-warning p-0 mr-5">
+
+      <!-- Home -->
+      <div id="home" class="bg-white text-dark min-vh-100 p-3 p-md-5 border">
+          <img class="mt-5 mt-md-0 rounded-circle w-25" src="images/xprofile.jpg">
+
+          <h1>Ian Gomez</h1>
+          <h3>Full-Stack Web Developer</h3>
+
+          <div class="row mt-5">
+            <div class="offset-md-2 col-md-8">
+              <p>
+                As a dreaming and ambitious web developer, my passion lies in creating exceptional online experiences that leave a lasting impact. With a strong foundation in front-end and back-end development, I possess a diverse skill set that enables me to bring visions to life. I am skilled in HTML, CSS, JavaScript, and have a deep understanding of responsive design, user experience, and performance optimization. Collaborating closely with designers and stakeholders, I strive to create visually stunning, user-friendly websites that drive engagement and deliver results. With an insatiable appetite for learning, I constantly stay up-to-date with the latest web technologies and trends, ensuring that I am at the forefront of the industry. My ultimate goal is to contribute to innovative projects, making a significant impact in the digital landscape while forging a successful career as a web developer.
+              </p>
+            </div>
+          </div>     
+
+      </div>
+      <!-- end of Home -->
+
+      <!-- about me -->
+      <div id="about" class="text-white text-center p-4 border bg-warning min-vh-100">
+          <h2 class="display-3 my-5">Get to Know Me</h2>
+          <img class="my-5 mt-md-0 w-100" src="images/cloud jump.jpg">
+          <p id="lorem">I am Ian, a talented web developer who finds solace in both the digital realm and the great outdoors. With a keen eye for design and a deep understanding of coding languages, I create captivating websites that seamlessly blend form and functionality. When I'm not meticulously crafting lines of code, you'll find me lacing up my hiking boots, eagerly embarking on new adventures. The rugged landscapes and serene trails offer a respite from the screen, allowing me to reconnect with nature and recharge my creative spirit. Whether I am conquering challenging peaks or strolling through tranquil forests, my love for hiking fuels my passion for exploration and serves as a constant reminder to embrace the beauty of the world beyond the screen.</p>
+      </div>
+      <!-- end of about me -->
+
+      <!-- Carousel Section -->
+        <div id="projects" class="bg-dark min-vh-100">
+          <div>
+            <h1 class="float text-white">My Projects</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img src="https://i.pinimg.com/originals/aa/e3/b5/aae3b5c68978b73707b68a78f4a9ec13.gif" class="d-block w-100">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="https://www.nasa.gov/sites/default/files/homepage-before.png" class="d-block w-100">
+                </div>
+
+                <div class="carousel-item">
+                  <img src="https://cdn.defenseone.com/media/img/cd/2022/08/24/GettyImages_1416139156/route-fifty-lead-image.jpg?1661361704" class="d-block w-100">
+                </div>
+
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </button>
+
+              <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </button>
+
+            </div>  
+          </div>
+        </div>
+        <!-- Carousel Section End -->
+
+        <!-- Other Projects Section -->
+        <div id="tools" class="bg-secondary text-light min-vh-100 p-5">
+            <h2 class="mb-3">Tools</h2>
+            <p>These are the tools I use to create websites.</p>
+
+            <div class="p-md-5 d-lg-flex justify-content-center">
+              <!-- HTML Card -->
+              <div
+                class="card bg-dark col-xl-4 mb-5 mb-xl-0"
+                style="width: 18rem"
+              >
+                <div class="card-body">
+                  <img
+                    src="https://3.bp.blogspot.com/-7x5c_f1yzsQ/XHv9FZKHrEI/AAAAAAAADrE/4iGl9Lm6K2odX4SdWbU_RN6gZesx4IaGACEwYBhgL/s1600/html.jpg"
+                    class="card-img-top"
+                  />
+
+                  <h5 class="card-title">HTML</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Programming Basics
+                  </h6>
+
+                  <p class="card-text">
+                    HTML, short for Hypertext Markup Language, is a standard markup language used for creating the structure and presentation of web pages. It forms the backbone of every webpage and provides a set of tags or elements that define the structure, content, and formatting of the page. These tags are used to mark different elements such as headings, paragraphs, links, images, tables, and forms. HTML uses a hierarchical structure where tags are nested within each other to create a logical and organized layout. Along with CSS (Cascading Style Sheets) and JavaScript, HTML plays a crucial role in building interactive and visually appealing websites that can be accessed and displayed correctly on various web browsers and devices.
+                  </p>
+
+                </div>
+              </div>
+              <!-- End of HTML Card -->
+
+              <!-- Bootstrap Card -->
+              <div
+                class="card bg-dark col-xl-4 mb-5 mb-xl-0 mx-xl-5 "
+                style="width: 18rem">
+
+                <div class="card-body">
+                  <img
+                    src="https://designmodo.com/wp-content/uploads/2021/03/bootstrap-5-layout.jpg"
+                    class="card-img-top"
+                  />
+
+                  <h5 class="card-title">Bootstrap</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">
+                    Rapid Prototyping
+                  </h6>
+
+                  <p class="card-text">
+                    Bootstrap is a popular open-source front-end framework used for developing responsive and mobile-first websites and web applications. It provides a collection of pre-designed HTML, CSS, and JavaScript components and utilities that make it easier to create consistent and visually appealing user interfaces. With Bootstrap, developers can quickly prototype and build responsive layouts, navigation menus, forms, buttons, modals, carousels, and much more. The framework also includes a responsive grid system that automatically adjusts the layout based on the screen size and device, ensuring optimal user experience across different platforms. Additionally, Bootstrap offers extensive documentation and customization options, allowing developers to tailor the framework to their specific project requirements. It has gained wide adoption in the web development community for its efficiency, flexibility, and robustness.
+                  </p>
+
+                </div>
+              </div>
+              <!-- End of Bootstrap Card -->
+
+              <!-- Node.js Card -->
+              <div
+                class="card bg-dark col-xl-4 mb-5 mb-xl-0"
+                style="width: 18rem"
+              >
+                <div class="card-body">
+                  <img
+                    src="https://clever-solution.com/wp-content/uploads/2020/04/5625%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C-1-1280x720.png"
+                    class="card-img-top"
+                  />
+
+                  <h5 class="card-title">Node JS Server</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Backend Basics</h6>
+
+                  <p class="card-text">
+                    Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser. It is built on the V8 JavaScript engine, which is the same engine used in Google Chrome. Node.js enables server-side scripting and facilitates the development of scalable and high-performance network applications. It uses an event-driven, non-blocking I/O model, making it suitable for handling concurrent requests and real-time applications. Node.js has a rich ecosystem of libraries and packages available through its package manager, npm, which greatly accelerates the development process. It has gained significant popularity for its efficiency, versatility, and ability to build web servers, command-line tools, APIs, streaming applications, and more.
+                  </p>
+                </div>
+              </div>
+              <!-- End of Node.js Card -->
+            </div>
+        </div>
+        <!-- Other Projects Section End -->
+
+        <!-- Contact Section -->
+        <div id="contactme" class="container-fluid bg-dark p-5 min-vh-100">
+            <h2 class="text-light">Contact Me</h2>
+            <div class="row mt-3 d-flex justify-content-center">
+              <div class="col-xs-12 col-md-8 col-lg-8 col-xl-4">
+                <!-- start of form -->
+                <form id="form-col" class="mb-3 bg-primary p-3 text-white rounded" >
+                <div class="form-group">
+                    <label for="nameInput">Name</label>
+                    <input type="text" class="form-control" id="nameInput" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email Address</label>
+                    <input type="email" class="form-control" id="emailInput" name="email" placeholder="name@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="nameInput">Subject</label>
+                    <input type="text" class="form-control" id="nameInput" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="messageTextarea">Message</label>
+                    <textarea class="form-control" id="messageTextarea" name="message" rows="4" required></textarea>
+                </div>
+                <button type="button" class="btn btn-primary bg-dark" data-toggle="modal" data-target="#modalDiv">
+                    Send Message
+                </button>
+                </form>
+                <!-- end of form -->
+              </div>
+            </div>
+          </div>
+          <!-- End of Contact Section -->
+          <!-- Modal -->
+          <div class="modal fade" id="modalDiv" tabindex="-1" role="dialog"            aria-labelledby="modalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="modalLabel">Thank You!</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                          <p>Your message has been sent. I will get back to you soon.</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        <!-- End of Modal -->
+    </div>
+    <!-- end of main page col 2-->
+  </div>
+</div>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+</body>
+</html>

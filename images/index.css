@@ -1,0 +1,37 @@
+/* Custom styles */
+
+.hero {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about {
+  background-color: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.portfolio {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.contact {
+  background-color: #ffffff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 30px 0;
+  text-align: center;
+}
+.bg-cloud{
+  background-image: url(image/cloud jump.jpg);
+}

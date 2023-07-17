@@ -1,0 +1,37 @@
+body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+.custom-container {
+  border: 1px solid #ccc;
+}
+
+#sidenav {
+  height: 100vh;
+  top: 0;
+}
+
+footer{
+  position:fixed;
+  bottom:0px;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  #sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  #sidenav div {float: left;}
+ #content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  #sidenav div {
+    text-align: center;
+    float: none;
+  }
+}
